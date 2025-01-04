@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/media.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Andrian Kostyk</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <!-- Навігація для майбутніх проєктів (головний)
+                <li><a href="#projects">Projects</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Andrian Kostyk</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <!-- Навігація для майбутніх проєктів (другорядний)
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>  -->
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="/images/11zon_cropped.png" alt="Andrian Kostyk profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Andrian Kostyk</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('#')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="/images/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/'">
+                <img src="/images/github.png" alt="My GinkedIn profile" class="icon" onclick="location.href='https://github.com/andriqwl'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img 
+                src="./images/IMG_70103.jpg" 
+                alt="Profile picture" 
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./images/experience.png" 
+                        alt="Experience icon" 
+                        class="icon">
+                        <h3>Experience</h3>
+                        <p>No formal work experience yet, but actively studying Frontend Development and JavaScript.</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./images/education.png" 
+                        alt="Education icon" 
+                        class="icon">
+                        <h3>Education</h3>
+                        <p>Currently studying at Zahirne Gymnasium, 9th grade</p>
+                    </div>
+                </div>
+                <div class="text-container info-about-me">
+                    <p> 
+                        I am a motivated student and aspiring IT professional with a strong passion for web development and technology. Currently, I’m enhancing my skills in frontend development, mastering HTML, CSS, and JavaScript, and working on personal projects that combine creativity and functionality. My long-term goal is to contribute to the IT industry by creating innovative and impactful digital solutions. I’m also deeply interested in the intersection of technology with global challenges, aiming to apply my skills to areas like digital solutions for societal impact. With a proactive mindset, I enjoy learning, solving problems, and collaborating with others to bring ideas to life. I’m driven by self-improvement and the ambition to leave a positive mark in the tech world.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                            src="./images/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./images/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./images/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div>
+                                <h3>SAAS</h3>
+                                <p>Not yet</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Not yet</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div>
+                                <h3>Material Ul</h3>
+                                <p>Not yet</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                            src="./images/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div>
+                                <h3>PostgreSQL</h3>
+                                <p>Not yet</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Not yet</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>Not yet</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="text-container info-about-me">
+                </div>
+            </div>
+        </div>
+        
+        <img src="./images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./experience'">
+    </section>
+    <!-- Відділ для майбутінх проєктів
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                src="./images/email.png" 
+                alt="Email icon" 
+                class="icon contact-icon email-icon"> 
+            <p><a href="malito:andriank4393@gmail.com">andriank4393@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img 
+                src="./images/linkedin.png" 
+                alt="LinkedIn icon" 
+                class="icon contact-icon"> 
+            <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <!-- Навігація для майбутніх проєктів (головний)
+                    <li><a href="#projects">Projects</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Andrian Kostyk. All Rights Reserved.</p>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
